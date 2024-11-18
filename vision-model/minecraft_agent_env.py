@@ -59,7 +59,7 @@ class MinecraftAgentEnv(gym.Env):
         num_block_types = 4
         self.surrounding_block_space = spaces.MultiDiscrete([num_block_types] * len(block_directions))
 
-        self.observed_ores = spaces.MultiBinary(1) # 5 observable ore types
+        self.observed_ores = spaces.MultiBinary(1) # 1 observable ore type
 
         # Observation space as a combination of coordinates and surrounding blocks
         self.observation_space = spaces.Tuple((
