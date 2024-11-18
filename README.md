@@ -8,7 +8,7 @@ See also the repository containing the required plugin and Image Model
 ## Model Architecture
 The model consists of two main parts: 
 - A DQN (Deep Q-Network) responsible for determining an optimal mining pattern and player movement.
-- An Image Proccessing model built on YOLO (You only look once) informing the DQN when a ore (resource block) is on the screen.
+- An Image Proccessing model built on YOLO (You only look once) informing the DQN when an ore (resource block) is on the screen.
 
 The environment definition is inspired by Gymnasium's AI lab.
 
