@@ -1,8 +1,9 @@
 # Machine Learning: Minecraft Diamond Finder
 This is the main repository for the Minecraft diamond finder model. 
-See also the repository containing the required plugin
+See also the repository containing the required plugin and Image Model
 
-[DiamondFinder Plugin](https://github.com/SkinnyAG/DiamondFinderPlugin)
+- [Ore-analyzer](https://github.com/MindChirp/ore-analyzer)
+- [DiamondFinder Plugin](https://github.com/SkinnyAG/DiamondFinderPlugin)
 
 ## Model Architecture
 The model consists of two main parts: 
