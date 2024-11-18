@@ -29,7 +29,7 @@ start_coords = (64, 64)
 
 mon = {'left': 160, 'top': 160, 'width': 700, 'height': 700}
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-image_model = YOLO("best.pt").to(device)
+image_model = YOLO("trainedyolo.pt").to(device)
 
 
 class MinecraftAgentEnv(gym.Env):
