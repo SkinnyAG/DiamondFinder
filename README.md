@@ -1,5 +1,16 @@
 # Machine Learning: Minecraft Diamond Finder
-This is the main repository for the Minecraft diamond finder model and environment declaration. 
-See also the repositories containing the required plugin and premade server.
+This is the main repository for the Minecraft diamond finder model. 
+See also the repository containing the required plugin
 
-The model starts up a socket, listening for connections on localhost:5000, which the Minecraft plugin should connect to in order to establish communication.
+[DiamondFinder Plugin](https://github.com/SkinnyAG/DiamondFinderPlugin)
+
+## Model Architecture
+The model consists of two main parts: 
+- A DQN (Deep Q-Network) responsible for determining an optimal mining pattern and player movement.
+- An Image Proccessing model built on YOLO (You only look once) informing the DQN when a ore (resource block) is on the screen.
+
+The environment definition is inspired by Gymnasium's AI lab.
+
+## Environment Communication
+The model communicates with the player agent inside the Minecraft environment through a socket connection. The model and agent exchange the current state and actions to perform over this connection. 
+The Bukkit API gathers information about the environment while programatically controlling the player character.
