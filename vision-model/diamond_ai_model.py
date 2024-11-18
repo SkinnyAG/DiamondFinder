@@ -9,6 +9,8 @@ import os
 import random
 import torch
 
+# This version of the model can be trained by typing the following command into the terminal:
+# python -m vision_model.diamond_ai_model
 
 # Hyperparameters
 num_episodes = 256
