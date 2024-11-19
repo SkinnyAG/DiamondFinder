@@ -5,6 +5,10 @@ See also the repository containing the required plugin and Image Model
 - [Ore-analyzer](https://github.com/MindChirp/ore-analyzer)
 - [DiamondFinder Plugin](https://github.com/SkinnyAG/DiamondFinderPlugin)
 
+Necessary packages
+
+`$ pip install torch numpy matplotlib gymnasium`
+
 ## Model Architecture
 The model consists of two main parts: 
 - A DQN (Deep Q-Network) responsible for determining an optimal mining pattern and player movement.
