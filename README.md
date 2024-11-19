@@ -18,4 +18,4 @@ The environment definition is inspired by Gymnasium's AI lab.
 
 ## Environment Communication
 The model communicates with the player agent inside the Minecraft environment through a socket connection. The model and agent exchange the current state and actions to perform over this connection. 
-The Bukkit API gathers information about the environment while programatically controlling the player character.
+The plugin's Bukkit API gathers information about the environment while programatically controlling the player character. More details in the plugin repository!
