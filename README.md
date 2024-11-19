@@ -5,6 +5,12 @@ See also the repository containing the required plugin and Image Model
 - [Ore-analyzer](https://github.com/MindChirp/ore-analyzer)
 - [DiamondFinder Plugin](https://github.com/SkinnyAG/DiamondFinderPlugin)
 
+## Video demonstrations
+- [Snaking Pattern](https://www.youtube.com/watch?v=AWCI2RaHlGQ)
+- [Branching Pattern within a rectangular area](https://www.youtube.com/watch?v=gfClWMDjIlc)
+- [Common Mining Pattern from 'blind' agent](https://www.youtube.com/watch?v=VQ95LVMJ90w)
+- [Ore Recognition using YOLO](https://youtu.be/zuUPoIzV7co?si=IA6jFS3aWXohjD9q)
+
 Necessary packages
 
 `$ pip install torch numpy matplotlib gymnasium`
